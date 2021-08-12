@@ -5,7 +5,7 @@ CRDs facilitating a snap and restore demo
 ## demo steps
 
 # 01 - Create the project
-`oc create project file-uploader`
+`oc create namespace file-uploader`
 # 02 -build the demo app
 `oc new-app  openshift/php:7.2-ubi8~https://github.com/christianh814/openshift-php-upload-demo --name=file-uploader`
 
